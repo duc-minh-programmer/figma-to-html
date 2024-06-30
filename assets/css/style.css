@@ -234,6 +234,178 @@ a {
   line-height: 1.22;
   margin-right: 15px;
 }
-.hero .content-block .desc strong:nth-child(2){
+.hero .content-block .desc strong:nth-child(2) {
   margin-left: 28px;
+}
+/* code phan popular */
+/* top */
+.popular-top .info .heading {
+  color: #171100;
+  font-family: var(--a_font-family);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: -0.76px;
+}
+.popular-top .info .desc {
+  width: 458px;
+  color: #5f5b53;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  margin-top: 1rem;
+}
+.popular-top .navigation-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid #ffb900;
+  position: relative;
+}
+.popular-top .n-button2 {
+  border-radius: 40px;
+  background: #ffb900;
+}
+.popular-top .navigation-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popular-top .navigation-bar {
+  display: flex;
+  gap: 18px;
+}
+.popular-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popular .img-course {
+  width: 370px;
+  height: 278px;
+  border-radius: 12px 12px 0px 0px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.popular .name-of-course p {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+.popular .course .content-of-course {
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+.popular .course .cost {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+.popular .course .course-of-rate {
+  display: flex;
+}
+.popular .course .course-of-rate p {
+  color: #fea31b;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+.popular .course .name-of-course {
+  display: flex;
+  justify-content: space-between;
+}
+.popular .course-list {
+  display: flex;
+  gap: 3rem;
+}
+.popular .course .book-click {
+  width: 118px;
+  height: 50px;
+  border-radius: 25px;
+  background: #ffb900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popular .course .book-now {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular .course .but-later {
+  background: #171100;
+  color: #fff;
+}
+/* code phần feedback */
+.feedback {
+  margin-top: 200px;
+  height: 380px;
+  background: #2e2100;
+}
+.feedback .person .thanh {
+  width: 72px;
+  height: 72px;
+  border-radius: 72px;
+  background: url(<path-to-image>);
+}
+.feedback .person .name-of-person {
+  color: #f7f7f7;
+  font-family: var(--a_font-family);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.41;
+  margin-top: 18px;
+  width: 200px;
+}
+.feedback .person .course-on {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.85;
+  margin-top: 4px;
+}
+.feedback .person-at {
+  display: flex;
+  width: 30px;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+.feedback .person-at .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background: #946b05;
+}
+.feedback .person-at .dot-on {
+  background: #ffb703;
+}
+.feedback .person {
+  position: relative;
+  margin: 96px 135px;
+}
+.feedback .feedback-item {
+  display: flex;
+  align-items: center;
+}
+/* student cmt */
+.feedback .student-comment img {
+  width: 30px;
+  height: 28px;
+}
+.feedback .student-comment p {
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.53;
+}
+.feedback .student-comment{
+  margin-left: 41px;
 }
